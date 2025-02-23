@@ -1,6 +1,6 @@
 <?php
 require "connection.php";
-include "./HEADER/header.html";
+include "header.html";
 
 $fname = $mail = $subject = $tarea = "";
 $err_fname = $err_mail = $err_subject = $err_tarea = "";
@@ -124,5 +124,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </html>
 
 <?php
-include "./FOOTER/footer.html";
+include "footer.html";
 ?>

@@ -1,5 +1,5 @@
 <?php
-include "./HEADER/header.html";
+include "header.html";
 require "connection.php";
 
 ?>
@@ -174,10 +174,8 @@ box-shadow: 1px 1px 5px black;
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybU7rD0T7a5kRrF6dG61l4hmlFwB9zF7K2v3SPuF5k0Jr/7fV3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0p7bM06CgNw6u/1Xg6nql+FbDBkZmVo9g/sX5VPTm8h5+fK5" crossorigin="anonymous"></script>
-</body>
-
-</html>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <?php
-include "./FOOTER/footer.html"
+include "footer.html"
 ?>

@@ -1,6 +1,6 @@
 <?php
 require "connection.php";
-include "./HEADER/header.html";
+include "header.html";
 
 $first_name = $last_name = $mail = $phone_number = $password = $confirm_password = "";
 $err_first_name = $err_last_name = $err_mail = $err_phone_number = $err_pasword = $err_confirm_pasword = "";
@@ -233,5 +233,5 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 </body>
 </html>
 <?php
-include "./FOOTER/footer.html"
+include "footer.html"
 ?>

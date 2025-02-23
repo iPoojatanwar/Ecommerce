@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "./HEADER/header.html";
+include "header.html";
 
 $cart = isset($_SESSION['cart']) && !empty($_SESSION['cart']) ? $_SESSION['cart'] : [];
 

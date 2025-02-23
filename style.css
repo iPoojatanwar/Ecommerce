@@ -2,3 +2,18 @@
     position: fixed;
     z-index: 111;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.container,a {
+    opacity: 1;
+    transition: opacity 4s ease;
+}
+
+.container.fade-out ,a.fade-out{
+    opacity: 0;
+}
+html {
+    scroll-behavior: smooth;
+}

@@ -1,5 +1,5 @@
 <?php
-include "./HEADER/header.html";
+include "header.html";
 require "connection.php";
 
 
@@ -158,5 +158,5 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 </html>
 <?php
-include "./FOOTER/footer.html"
+include "footer.html"
 ?>
